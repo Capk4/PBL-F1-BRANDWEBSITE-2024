@@ -1,0 +1,664 @@
+body {
+	background-color: white;
+	font-family: 'Haveltica', sans-serif;
+	font-size: 25px;
+	color: white;
+	display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  flex-grow: 1; /* Make the body take up all available space */
+}
+#short {
+	margin-left: 18px;
+}
+header {
+	border-radius: 25px;
+	background-color: white;
+}
+header nav ul {
+	padding: 5px;
+}
+header nav ul li {
+	margin: 0px;
+	display: inline-block;
+}
+header nav ul li a {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 50px;
+	color: black;
+	text-decoration: none;
+	transition: background-color 0.5s ease;
+}
+header nav ul li a:hover {
+	background-color: gray;
+	transition: background-color 0.5s ease;
+}
+header, footer {
+    background-color: whitesmoke;
+    color: black;
+    width: 99%;
+}
+
+footer {
+    text-align: center;
+    font-size: 22px;
+    width: 1489px;
+    padding: 15px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+	/*Home*/
+#Hpage {
+	background-attachment: fixed;
+	background-image: url(https://images.thenorthface.com/is/image/TheNorthFaceBrand/210930-about-us-purpose-d?wid=1920&qlt=35);
+}
+#HPnavbar {
+	padding: 8px;
+}
+.Hmb {
+	border-radius: 5px;
+	border-color: black;
+}
+
+	/*Explore*/
+#ExpPage{
+	background-image: url(https://images.thenorthface.com/is/image/TheNorthFaceBrand/210930-about-us-athletes-d?wid=1920&qlt=35);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: black;
+}
+.Exptitle {
+	background-color: whitesmoke;
+	border-width: 5px;
+	border-radius: 15px;
+	text-align: center;
+	width: 500px;
+}
+#NA1text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A82VU4H0-HERO/NF0A82VU4H0-in-TNF-Black.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#NA1text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A82VU4H0-BACK/NF0A82VU4H0-in-TNF-Black.png);
+	transition: background-image 0.5s ease;
+}
+#NA2text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A7UQO1NI-HERO/NF0A7UQO1NI-in-Midnight-Mauve.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#NA2text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A7UQO1NI-BACK/NF0A7UQO1NI-in-Midnight-Mauve.png);
+	transition: background-image 0.5s ease;
+}
+#NA3text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A8BXV1I7-HERO/Girls-ThermoBallTM-Parka-in-Deep-Mulberry.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#NA3text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A8BXV1I7-BACK/NF0A8BXV1I7-in-Deep-Mulberry.png);
+	transition: background-image 0.5s ease;
+}
+#FP1text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A88754WP-HERO/NF0A88754WP-in-Summit-GoldTNF-Black.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#FP1text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A88754WP-BACK/NF0A88754WP-in-Summit-GoldTNF-Black.png);
+	transition: background-image 0.5s ease;
+}
+#FP2text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A81CTARP-HERO/NF0A81CTARP-in-Retro-Orange.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#FP2text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A81CTARP-INT/NF0A81CTARP-in-Retro-Orange.png);
+	transition: background-image 0.5s ease;
+}
+#FP3text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A3JQQ5IX-HERO/NF0A3JQQ5IX-in-White-DuneTNF-Black-TNF-Tiger-Stripe-Print.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#FP3text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A3JQQ5IX-BACK/NF0A3JQQ5IX-in-White-DuneTNF-Black-TNF-Tiger-Stripe-Print.png);
+	transition: background-image 0.5s ease;
+}
+#A1text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A81BL4X4-HERO/NF0A81BL4X4-in-Summit-NavySummit-Gold.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#A1text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A81BL4X4-MODELBACK/NF0A81BL4X4-in-Summit-NavySummit-Gold.png);
+	transition: background-image 0.5s ease;
+}
+#A2text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A7WH3YHO-HERO/Embroidered-Mudder-Trucker-Hat-in-New-Taupe-GreenBear-Graphic.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#A2text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A7WH3YHO-BACK/Embroidered-Mudder-Trucker-Hat-in-New-Taupe-GreenBear-Graphic.png);
+	transition: background-image 0.5s ease;
+}
+#A3text {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A8191BQW-HERO/Mens-Ultra-112-Waterproof-Shoes-in-New-Taupe-GreenTNF-Black.png);
+	transition: background-image 0.5s ease;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 450px;
+	width: 600px;
+	text-align: center;
+	padding-top: 375px;
+	color: whitesmoke;
+	border-radius: 25px;
+}
+#A3text:hover {
+	background-image: url(https://assets.thenorthface.com/images/t_img/c_pad,b_white,f_auto,h_1175,w_1005,e_sharpen:70/NF0A8191BQW-DETAILINSTEP/Mens-Ultra-112-Waterproof-Shoes-in-New-Taupe-GreenTNF-Black.png);
+	transition: background-image 0.5s ease;
+}
+.ExpBody {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/*Products*/
+#Ppage {
+	background-image: url(https://images.thenorthface.com/is/image/TheNorthFaceBrand/210930-about-us-technology-d?wid=1920&qlt=35);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: black;
+}
+.Protitle {
+	background-color: whitesmoke;
+	border-width: 5px;
+	border-radius: 15px;
+	text-align: center;
+	width: 500px;
+	padding: 5px;
+}
+.Protitle1 {
+	background-color: whitesmoke;
+	border-radius: 20px;
+	text-align: center;
+	width: 250px;
+	margin-left: 625px;
+}
+
+.card-content .wasd {
+	color: lightgray;
+	font-size: 10px;
+	text-align: left;
+}
+
+.card-content .ril {
+    color: white;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card-content .dis {
+	color: red;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* General container style */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 30px; /* Adds space between cards */
+}
+
+/* Heading style for the card container */
+.card-container p {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+/* Card styling */
+.card {
+    width: 325px;
+    background: lightgrey;
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Softer and larger shadow for premium feel */
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect on cards */
+.card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Image style for cards */
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the space without stretching */
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2); /* Subtle border below image */
+}
+
+/* Card content style */
+.card-content {
+    padding: 24px 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Slightly darkened background to make text pop */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Card title style */
+.card-content h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* Button styling */
+.card-content .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ff4d4d; /* Rich red for contrast */
+    text-decoration: none;
+    border-radius: 30px; /* Rounded button */
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.card-content .btn:hover {
+    background: #e63946; /* Slightly darker red */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Button focus state for accessibility */
+.card-content .btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+
+	/*About Us*/
+#AUpage {
+	background-image: url(https://images.thenorthface.com/is/image/TheNorthFaceBrand/snow-hero-d?scl=1&qlt=65);
+	background-attachment: fixed;
+	background-position: center;
+	color: black;
+}
+#AU1 {
+	background-color: whitesmoke;
+	border-radius: 5px;
+	padding: 1px;
+	font-size: 21px;
+}
+#AUhistory {
+	font-family: 'Haveltica', sans-serif;
+}
+#line {
+	width: 1518px;
+	height: 20px;
+	background-color: black;
+	margin: 80px;
+	margin-left: -8px;
+	align-items: center;
+}
+#AUvm {
+	display: flex;
+	justify-content: space-evenly;
+}
+#AUvision {
+	background-color: whitesmoke;
+	border-radius: 20px;
+	text-align: center;
+	width: 550px;
+	height: 315px;
+	margin-left: 250px;
+	margin-right: 50px;
+}
+#AUmission {
+	background-color: whitesmoke;
+	border-radius: 20px;
+	text-align: center;
+	width: 550px;
+	height: 315px;
+	margin-right: 250px;
+	margin-left: 50px;
+}
+
+/* THE MAINCONTAINER HOLDS EVERYTHING */
+/*ATHLETE 1*/
+.maincontainer1{
+  display: flex;
+  width: 500px;
+  height: 640px;
+  background: none;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+}
+
+/* ATHLETE 2*/
+/* THE MAINCONTAINER HOLDS EVERYTHING */
+.maincontainer2{
+  display: flex;
+  width: 500px;
+  height: 640px;
+  background: none;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+}
+
+/* ATHLETE 3*/
+/* THE MAINCONTAINER HOLDS EVERYTHING */
+.maincontainer3{
+  display: flex;
+  width: 500px;
+  height: 640px;
+  background: none;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+}
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard{
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  margin-left: 221px;
+  margin-top: 300px;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #ffc728;
+  color: #000;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #fafafa;
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+}
+
+	/*Other*/
+#smpagehead {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	border-radius: 25px;
+}
+#smpage {
+	background-image: url(https://www.thenorthface.com/content/publish/caas/v1/media/1189844/data/53e0cfff32eed9eceaa34fad4d3a55ed/240822-labor-day-sale-primary-d.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+iframe {
+	border-radius: 20px;
+	border-width: 5px;
+	border-color: whitesmoke;
+}
+form {
+	background-color: darkgrey;
+  width: 500px;
+  margin: 40px auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+input, textarea {
+  margin-bottom: 30px;
+}
+.CU {
+	display: flex;
+	justify-content: space-evenly;
+}
+.CU1 {
+	margin: 20px;
+	margin-top: 40px;
+	width: 650px;
+	height: 595px;
+	border-radius: 20px;
+	border-width: 300px;
+	border-color: whitesmoke;
+	background-color: darkgray;
+}
+.CU1tahla {
+	background-color: gray;
+	padding: 6px;
+}
+.CU2tahla {
+	background-color: gray;
+	width: 350px;
+	padding: 8px;
+	border-radius: 40px;
+}
+.CD {
+	text-align: left;
+	padding: 5px;
+}
+#yt {
+	border: 0px solid;
+	border-radius: 25%;
+	border-color: whitesmoke;
+	background-color: whitesmoke;
+}
+#yt:hover {
+	background-color: lightgray;
+}
+#yt1 {
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: darkgrey;
+}
+#insta {
+	border: 0px solid;
+	border-radius: 25%;
+	border-color: whitesmoke;
+	background-color: whitesmoke;
+}
+#insta:hover {
+	background-color: lightgray;
+}
+#insta1 {
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: darkgrey;
+}
+#tiktok {
+	border: 0px solid;
+	border-radius: 25%;
+	border-color: whitesmoke;
+	background-color: whitesmoke;
+}
+#tiktok:hover {
+	background-color: lightgray;
+}
+#tiktok1 {
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: darkgrey;
+}
+.SMreal {
+	display: inline-block;
+}
+.containersm {
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#followus {
+	color: black;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	width: 600px;
+}
